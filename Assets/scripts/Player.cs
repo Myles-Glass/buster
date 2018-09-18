@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/* The Player class that has modifies and holds
+ * any data that pertains to the player
+ */
+
 public class Player : MonoBehaviour {
 
     public int money;

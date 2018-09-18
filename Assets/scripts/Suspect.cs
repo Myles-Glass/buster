@@ -4,6 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+/*
+ * The Suspect class contains all the methods
+ * and data that pertains to the suspect that is
+ * pulled over.
+ */
 public class Suspect : MonoBehaviour {
 
     List<string> traits = new List<string>(new string[] { "Observant", "Distracted", "Talkative", "Shy", "Fearless", "Afraid", "Easily Swayed", "Stubborn", "Weak", "Strong", });
